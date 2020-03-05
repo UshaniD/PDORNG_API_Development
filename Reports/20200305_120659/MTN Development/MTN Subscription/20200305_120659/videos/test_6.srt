@@ -1,0 +1,8 @@
+1
+00:00:00,057 --> 00:00:00,058
+1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank country code"))
+
+2
+00:00:01,631 --> 00:00:01,631
+5. response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank country code"))
+

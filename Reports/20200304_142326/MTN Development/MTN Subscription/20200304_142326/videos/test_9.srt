@@ -1,0 +1,4 @@
+1
+00:00:00,082 --> 00:00:00,083
+1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid product id"))
+

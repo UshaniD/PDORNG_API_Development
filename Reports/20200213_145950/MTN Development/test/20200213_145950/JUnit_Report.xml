@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="3.71" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="3.71" timestamp="2020-02-13 14:59:56" hostname="ushani - ushani-ThinkPad-T480s" id="Test Suites/MTN Development/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200213_145950/MTN Development/test/20200213_145950"/>
+         <property name="logFiles" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200213_145950/MTN Development/test/20200213_145950/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ushani - ushani-ThinkPad-T480s"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" time="3.523" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" status="PASSED">
+         <system-out><![CDATA[2020-02-13 14:59:56 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields: Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields
+
+2020-02-13 14:59:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Valid subscription")): Send request successfully
+
+2020-02-13 14:59:59 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200213_145950/MTN Development/test/20200213_145950/requests/main/0.har
+
+2020-02-13 14:59:59 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-13 14:59:56 - [TEST_SUITE][PASSED] - test: Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

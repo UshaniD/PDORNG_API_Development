@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sub_Verify the state in header is blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9fd4d6f-498b-4456-9406-2dc870180442</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Unsub_Verify sending request from SP with all required fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9c62f52-7469-417a-8040-c90256e427b6</testCaseGuid>
+</TestCaseEntity>

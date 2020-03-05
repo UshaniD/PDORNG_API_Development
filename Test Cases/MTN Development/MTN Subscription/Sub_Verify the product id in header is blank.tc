@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sub_Verify the product id in header is blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dec3c76-acc8-451d-a1aa-fdc7e5d93c1e</testCaseGuid>
+</TestCaseEntity>

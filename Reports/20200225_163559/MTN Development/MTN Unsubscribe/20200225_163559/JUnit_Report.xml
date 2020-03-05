@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MTN Unsubscribe" time="17.499" tests="2" failures="0" errors="0">
+   <testsuite name="MTN Unsubscribe" tests="2" failures="0" errors="0" time="17.499" timestamp="2020-02-25 16:36:06" hostname="ushani - ushani-ThinkPad-T480s" id="Test Suites/MTN Development/MTN Unsubscribe">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559"/>
+         <property name="logFiles" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ushani - ushani-ThinkPad-T480s"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" time="14.465" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" status="PASSED">
+         <system-out><![CDATA[2020-02-25 16:36:07 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields: Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields
+
+2020-02-25 16:36:07 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Valid")): Send request successfully
+
+2020-02-25 16:36:13 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559/requests/main/0.har
+
+2020-02-25 16:36:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-02-25 16:36:13 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Valid")): Send request and verify the response successfully
+
+2020-02-25 16:36:18 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559/requests/main/1.har
+
+2020-02-25 16:36:18 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-02-25 16:36:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription-id"): null
+
+2020-02-25 16:36:18 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-02-25 16:36:18 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - subscriptionId = subscription-id: null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - println("------------Subscription-id is:" + subscriptionId): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - subscriptionId = subscriptionId: null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - println("------------Global variable subscription-id is: " + subscriptionId): null
+
+2020-02-25 16:36:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Unsubscribe/Unsubscribe - Valid", ["subscriptionId":subscriptionId])): Send request successfully
+
+2020-02-25 16:36:21 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559/requests/main/2.har
+
+2020-02-25 16:36:21 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Unsubscribe/Unsub_Verify sending request from SP with all required fields" time="2.794" classname="Test Cases/MTN Development/MTN Unsubscribe/Unsub_Verify sending request from SP with all required fields" status="PASSED">
+         <system-out><![CDATA[2020-02-25 16:36:21 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Unsubscribe/Unsub_Verify sending request from SP with all required fields: Test Cases/MTN Development/MTN Unsubscribe/Unsub_Verify sending request from SP with all required fields
+
+2020-02-25 16:36:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Unsubscribe/Unsubscribe - Valid", ["subscriptionId":subscriptionId])): Send request successfully
+
+2020-02-25 16:36:24 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200225_163559/MTN Development/MTN Unsubscribe/20200225_163559/requests/main/3.har
+
+2020-02-25 16:36:24 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-25 16:36:06 - [TEST_SUITE][PASSED] - MTN Unsubscribe: Test Cases/MTN Development/MTN Unsubscribe/Unsub_Verify sending request from SP with all required fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

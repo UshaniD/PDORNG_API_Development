@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696353</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/MTN Development/MTN Subscription</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">MTN Subscription</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/MTN Development/MTN Subscription</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696362</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ushani - ushani-ThinkPad-T480s</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ushani - ushani-ThinkPad-T480s</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696362</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Linux 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Linux 64bit</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696363</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.1.1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696366</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696598</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the user id in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696966</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696967</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696968</millis>
+  <sequence>9</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696969</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:36</date>
+  <millis>1581585696974</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the state in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697091</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697092</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697092</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697093</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697098</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the sp id in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697202</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697203</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697203</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697204</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697206</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the product id in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697288</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697289</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697289</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697289</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697291</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the mno name in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697362</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697362</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697362</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697363</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697365</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify the country code in header is blank.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697431</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697432</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697432</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697432</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697435</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify sending request from SP with all required request header fields.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:37</date>
+  <millis>1581585697575</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;MTN Development/MTN Subscription/Valid subscription\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706367</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200213_145130/MTN Development/MTN Subscription/20200213_145130/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">4cfe9584-6295-48c9-8c9b-ac69078fc92f</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706413</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706414</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;MTN Development/MTN Subscription/Valid subscription\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706414</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706414</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706416</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify invalid sp id in header.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706469</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706470</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706470</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706470</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706472</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify invalid product id in header.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706543</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706543</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706543</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706544</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706547</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify invalid mno name in header.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706670</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706671</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706671</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706671</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706674</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header</property>
+  <property name="source">\\home\\ushani\\gitRepos\\Orange_Product_Development\\PDORNG_API_Development\\Test Cases\\MTN Development\\MTN Subscription\\Sub_Verify invalid country code in header.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706749</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706749</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706749</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706750</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T14:51:46</date>
+  <millis>1581585706774</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/MTN Development/MTN Subscription</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2020-02-13T14:56:17</date>
+  <millis>1581585977148</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>763</thread>
+  <message>HAR: /tmp/har2024599645171597401/requests/ModalContext/0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">59a58531-21f1-4808-84ac-2531f7cb7199</property>
+</record>
+<record>
+  <date>2020-02-13T14:57:01</date>
+  <millis>1581586021258</millis>
+  <sequence>190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>776</thread>
+  <message>HAR: /tmp/har3903270016402436991/requests/ModalContext/1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">bdd09a56-cf78-4b5d-b053-a622bbfceb9f</property>
+</record>
+<record>
+  <date>2020-02-13T15:16:51</date>
+  <millis>1581587211321</millis>
+  <sequence>269</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>860</thread>
+  <message>HAR: /tmp/har1365037091477656616/requests/ModalContext/2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">fe6ea64f-af72-47db-abdb-54e1a3615b71</property>
+</record>
+<record>
+  <date>2020-02-14T10:06:21</date>
+  <millis>1581654981979</millis>
+  <sequence>327</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1031</thread>
+  <message>HAR: /tmp/har6792981026973321655/requests/ModalContext/3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">09ee02a4-934c-4bad-afdf-360a318f39a8</property>
+</record>
+<record>
+  <date>2020-02-14T10:12:32</date>
+  <millis>1581655352268</millis>
+  <sequence>328</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1082</thread>
+  <message>HAR: /tmp/har3935856214592469933/requests/ModalContext/4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">6680c1bb-8f58-4bf3-b451-95e801d47747</property>
+</record>
+<record>
+  <date>2020-02-14T11:22:45</date>
+  <millis>1581659565446</millis>
+  <sequence>329</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1119</thread>
+  <message>HAR: /tmp/har1798008299580466197/requests/ModalContext/5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">26585d50-4cdc-4639-b64e-9419b96eafa0</property>
+</record>
+<record>
+  <date>2020-02-14T11:24:07</date>
+  <millis>1581659647717</millis>
+  <sequence>330</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1149</thread>
+  <message>HAR: /tmp/har2841331207518553869/requests/ModalContext/6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4b7e78aa-f248-4e43-99ec-1fe725d6dda7</property>
+</record>
+<record>
+  <date>2020-02-14T11:24:56</date>
+  <millis>1581659696636</millis>
+  <sequence>331</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1176</thread>
+  <message>HAR: /tmp/har363842599035485402/requests/ModalContext/7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e22505bc-6442-4b2a-9523-17df4192dcd2</property>
+</record>
+<record>
+  <date>2020-02-14T11:25:46</date>
+  <millis>1581659746710</millis>
+  <sequence>332</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1220</thread>
+  <message>HAR: /tmp/har1928840302203234139/requests/ModalContext/8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">44d6c5fe-3b8a-4119-aaa3-e29fff2357ca</property>
+</record>
+<record>
+  <date>2020-02-14T11:26:27</date>
+  <millis>1581659787322</millis>
+  <sequence>333</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1247</thread>
+  <message>HAR: /tmp/har5854502230994599847/requests/ModalContext/9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">830b1122-da3e-42ad-83df-44e848cd9e31</property>
+</record>
+<record>
+  <date>2020-02-14T11:28:10</date>
+  <millis>1581659890742</millis>
+  <sequence>334</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1299</thread>
+  <message>HAR: /tmp/har9032400769558376528/requests/ModalContext/10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">36a3c5f6-971a-495d-9c14-810ca6542085</property>
+</record>
+<record>
+  <date>2020-02-14T11:29:35</date>
+  <millis>1581659975113</millis>
+  <sequence>335</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1328</thread>
+  <message>HAR: /tmp/har7150176913449936176/requests/ModalContext/11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">c6199bb0-11c9-4fea-8d55-3d133909be63</property>
+</record>
+<record>
+  <date>2020-02-14T11:51:15</date>
+  <millis>1581661275315</millis>
+  <sequence>382</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1912</thread>
+  <message>HAR: /tmp/har6992398204239495734/requests/ModalContext/12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7f80c099-a901-4d81-9358-874853d01aff</property>
+</record>
+<record>
+  <date>2020-02-14T11:57:37</date>
+  <millis>1581661657464</millis>
+  <sequence>383</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1921</thread>
+  <message>HAR: /tmp/har2961476379266808255/requests/ModalContext/13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a9438029-2f68-45af-8b37-8d265615e8c9</property>
+</record>
+<record>
+  <date>2020-02-14T11:58:09</date>
+  <millis>1581661689357</millis>
+  <sequence>384</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1932</thread>
+  <message>HAR: /tmp/har7180304926170449541/requests/ModalContext/14.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">835aaeb3-89d7-4167-88f6-773fd61fc9a6</property>
+</record>
+<record>
+  <date>2020-02-14T11:58:20</date>
+  <millis>1581661700270</millis>
+  <sequence>385</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1936</thread>
+  <message>HAR: /tmp/har4913971009362282645/requests/ModalContext/15.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">569b56eb-c9fa-46ea-b7f4-7ed547b16eea</property>
+</record>
+<record>
+  <date>2020-02-14T11:58:39</date>
+  <millis>1581661719622</millis>
+  <sequence>386</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1951</thread>
+  <message>HAR: /tmp/har3124505379172616658/requests/ModalContext/16.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">92ddc1dd-e5e3-4fba-b8e8-6b5be306bf0d</property>
+</record>
+</log>

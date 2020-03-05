@@ -1,0 +1,4 @@
+1
+00:00:00,053 --> 00:00:00,054
+1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - MTN response code 001"))
+

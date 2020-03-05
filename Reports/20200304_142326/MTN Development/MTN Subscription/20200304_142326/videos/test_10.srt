@@ -1,0 +1,4 @@
+1
+00:00:00,072 --> 00:00:00,073
+1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid mno name"))
+

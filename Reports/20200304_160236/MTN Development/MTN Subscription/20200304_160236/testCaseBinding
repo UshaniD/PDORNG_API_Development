@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001"}
+{"testCaseName":"Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233","testCaseId":"Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233"}
