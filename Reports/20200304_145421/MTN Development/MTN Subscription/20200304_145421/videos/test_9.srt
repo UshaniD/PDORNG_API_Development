@@ -1,4 +1,0 @@
-1
-00:00:00,116 --> 00:00:00,117
-1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid product id"))
-

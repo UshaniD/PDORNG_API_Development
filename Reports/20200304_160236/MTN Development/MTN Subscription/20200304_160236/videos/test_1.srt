@@ -1,4 +1,0 @@
-1
-00:00:00,170 --> 00:00:00,173
-1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank user id"))
-

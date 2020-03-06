@@ -1,4 +1,0 @@
-1
-00:00:00,073 --> 00:00:00,074
-1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid country code"))
-

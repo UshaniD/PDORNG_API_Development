@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MTN Subscription" time="61.267" tests="13" failures="0" errors="0">
+   <testsuite name="MTN Subscription" tests="13" failures="0" errors="0" time="61.267" timestamp="2020-03-06 14:16:13" hostname="jenkins - ushani-ThinkPad-T480s" id="Test Suites/MTN Development/MTN Subscription">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612"/>
+         <property name="logFiles" value="/home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jenkins - ushani-ThinkPad-T480s"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+      </properties>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank" time="10.451" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:13 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the user id in header is blank
+
+2020-03-06 14:16:14 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank user id")): Send request successfully
+
+2020-03-06 14:16:22 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/0.har
+
+2020-03-06 14:16:22 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:22 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank user id")): Send request and verify the response successfully
+
+2020-03-06 14:16:24 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/1.har
+
+2020-03-06 14:16:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:24 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:24 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:24 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:24 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:24 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank" time="3.372" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:24 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the state in header is blank
+
+2020-03-06 14:16:24 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank state")): Send request successfully
+
+2020-03-06 14:16:26 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/2.har
+
+2020-03-06 14:16:26 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:26 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank state")): Send request and verify the response successfully
+
+2020-03-06 14:16:27 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/3.har
+
+2020-03-06 14:16:27 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:27 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:27 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:27 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:27 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:27 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank" time="3.351" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:27 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the sp id in header is blank
+
+2020-03-06 14:16:27 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank sp id")): Send request successfully
+
+2020-03-06 14:16:29 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/4.har
+
+2020-03-06 14:16:29 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:29 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank sp id")): Send request and verify the response successfully
+
+2020-03-06 14:16:31 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/5.har
+
+2020-03-06 14:16:31 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:31 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:31 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:31 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:31 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:31 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank" time="3.431" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:31 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the product id in header is blank
+
+2020-03-06 14:16:31 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank product id")): Send request successfully
+
+2020-03-06 14:16:32 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/6.har
+
+2020-03-06 14:16:32 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:32 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank product id")): Send request and verify the response successfully
+
+2020-03-06 14:16:34 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/7.har
+
+2020-03-06 14:16:34 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:34 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:34 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:34 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:34 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:34 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank" time="3.545" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:34 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the mno name in header is blank
+
+2020-03-06 14:16:34 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank mno name")): Send request successfully
+
+2020-03-06 14:16:36 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/8.har
+
+2020-03-06 14:16:36 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:36 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank mno name")): Send request and verify the response successfully
+
+2020-03-06 14:16:38 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/9.har
+
+2020-03-06 14:16:38 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:38 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:38 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:38 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:38 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:38 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank" time="3.775" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:38 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank: Test Cases/MTN Development/MTN Subscription/Sub_Verify the country code in header is blank
+
+2020-03-06 14:16:38 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank country code")): Send request successfully
+
+2020-03-06 14:16:39 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/10.har
+
+2020-03-06 14:16:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:39 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Blank country code")): Send request and verify the response successfully
+
+2020-03-06 14:16:41 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/11.har
+
+2020-03-06 14:16:41 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:41 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:41 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:41 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:41 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" time="6.773" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:41 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields: Test Cases/MTN Development/MTN Subscription/Sub_Verify sending request from SP with all required request header fields
+
+2020-03-06 14:16:41 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Valid")): Send request successfully
+
+2020-03-06 14:16:43 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/12.har
+
+2020-03-06 14:16:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:43 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Valid")): Send request and verify the response successfully
+
+2020-03-06 14:16:45 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/13.har
+
+2020-03-06 14:16:45 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-06 14:16:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription-id"): null
+
+2020-03-06 14:16:45 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:45 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - subscriptionId = subscription-id: null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - println("------------Subscription-id is:" + subscriptionId): null
+
+2020-03-06 14:16:45 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Unsubscribe/Unsubscribe - Valid", ["subscriptionId":subscriptionId])): Send request successfully
+
+2020-03-06 14:16:48 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/14.har
+
+2020-03-06 14:16:48 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header" time="3.475" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:48 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header: Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid sp id in header
+
+2020-03-06 14:16:48 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid sp id")): Send request successfully
+
+2020-03-06 14:16:50 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/15.har
+
+2020-03-06 14:16:50 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:50 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid sp id")): Send request and verify the response successfully
+
+2020-03-06 14:16:52 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/16.har
+
+2020-03-06 14:16:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:52 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header" time="4.996" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:52 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header: Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid product id in header
+
+2020-03-06 14:16:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid product id")): Send request successfully
+
+2020-03-06 14:16:53 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/17.har
+
+2020-03-06 14:16:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:53 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid product id")): Send request and verify the response successfully
+
+2020-03-06 14:16:57 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/18.har
+
+2020-03-06 14:16:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:16:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:16:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:16:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:16:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:16:57 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:16:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:16:57 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header" time="3.37" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:16:57 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header: Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid mno name in header
+
+2020-03-06 14:16:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid mno name")): Send request successfully
+
+2020-03-06 14:16:58 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/19.har
+
+2020-03-06 14:16:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:16:58 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid mno name")): Send request and verify the response successfully
+
+2020-03-06 14:17:00 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/20.har
+
+2020-03-06 14:17:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:17:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:17:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:17:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:17:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:17:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:17:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:17:00 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header" time="3.451" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:17:00 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header: Test Cases/MTN Development/MTN Subscription/Sub_Verify invalid country code in header
+
+2020-03-06 14:17:00 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid country code")): Send request successfully
+
+2020-03-06 14:17:02 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/21.har
+
+2020-03-06 14:17:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:17:02 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - Invalid country code")): Send request and verify the response successfully
+
+2020-03-06 14:17:03 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/22.har
+
+2020-03-06 14:17:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:17:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:17:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:17:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-06 14:17:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:17:03 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(400): null
+
+2020-03-06 14:17:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:17:03 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001" time="5.592" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:17:03 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001: Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 001
+
+2020-03-06 14:17:04 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - MTN response code 001")): Send request successfully
+
+2020-03-06 14:17:06 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/23.har
+
+2020-03-06 14:17:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:17:06 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - MTN response code 001")): Send request and verify the response successfully
+
+2020-03-06 14:17:09 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/24.har
+
+2020-03-06 14:17:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 500): Verify response status code successfully
+
+2020-03-06 14:17:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(500): null
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - getResponseText()).contains("messageId"): null
+
+2020-03-06 14:17:09 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:17:09 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233" time="5.424" classname="Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233" status="PASSED">
+         <system-out><![CDATA[2020-03-06 14:17:09 - [TEST_CASE][PASSED] - Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233: Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233
+
+2020-03-06 14:17:09 - [TEST_STEP][PASSED] - sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - MTN response code 22007233")): Send request successfully
+
+2020-03-06 14:17:12 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/25.har
+
+2020-03-06 14:17:12 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-06 14:17:12 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("MTN Development/MTN Subscription/Subscription - MTN response code 22007233")): Send request and verify the response successfully
+
+2020-03-06 14:17:14 - [MESSAGE][INFO] - HAR: /home/ushani/gitRepos/Orange_Product_Development/PDORNG_API_Development/Reports/20200306_141612/MTN Development/MTN Subscription/20200306_141612/requests/main/26.har
+
+2020-03-06 14:17:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-06 14:17:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-06 14:17:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-06 14:17:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-06 14:17:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-06 14:17:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-03-06 14:17:15 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription-id"): null
+
+2020-03-06 14:17:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-06 14:17:15 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-06 14:16:13 - [TEST_SUITE][PASSED] - MTN Subscription: Test Cases/MTN Development/MTN Subscription/Sub_Verify MTN response code 22007233]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

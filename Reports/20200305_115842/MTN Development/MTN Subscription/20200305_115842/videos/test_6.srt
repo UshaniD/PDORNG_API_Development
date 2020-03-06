@@ -1,4 +1,0 @@
-1
-00:00:00,062 --> 00:00:00,062
-1. sendRequest(findTestObject("MTN Development/MTN Subscription/Subscription - Blank country code"))
-
